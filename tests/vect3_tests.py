@@ -12,6 +12,8 @@
 #	2226 Fix __init__.py file, just discover it.
 #	2234 Test upload and install from TestPyPI and ok.
 #	2239 Upload 0.0.8 to PyPI, install, test, and ok.
+#	20210207
+#	0842 Modify example of usage for installed package.
 #	
 
 
@@ -19,9 +21,11 @@
 if True:
 	from butiran.vect3 import Vect3
 	
-	a = Vect3()
+	a = Vect3(100.001, -0.5, 2021)
 	print("a = " + a.strval())
 
+	b = a.neg()
+	print("b = " + b.strval())
 
 # Run if True -- before buid
 if False:
