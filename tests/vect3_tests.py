@@ -6,12 +6,12 @@
 #	
 #	20210206
 #	2005 Clean the test file for better readability.
-# 2014 Read previous tests.
+#	2014 Read previous tests.
 #	2106 Try to install and test the package, fail.
 #	2128 Empty install_requires=[] and ok.
 #	2226 Fix __init__.py file, just discover it.
-# 2234 Test upload and install from TestPyPI and ok.
-# 2239 Upload 0.0.8 to PyPI, install, test, and ok.
+#	2234 Test upload and install from TestPyPI and ok.
+#	2239 Upload 0.0.8 to PyPI, install, test, and ok.
 #	
 
 
